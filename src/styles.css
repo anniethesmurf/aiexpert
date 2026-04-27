@@ -397,7 +397,7 @@ textarea {
   }
 
   .second-layer-hero {
-    @apply relative overflow-hidden pt-28 sm:pt-32;
+    @apply relative overflow-hidden pt-20 sm:pt-24;
     background:
       linear-gradient(135deg, rgba(5, 17, 31, 0.96), rgba(8, 72, 126, 0.72)),
       radial-gradient(circle at 50% 0%, rgba(56, 216, 255, 0.18), transparent 26rem),
@@ -405,7 +405,7 @@ textarea {
   }
 
   .second-layer-hero-inner {
-    @apply mx-auto flex min-h-[260px] max-w-4xl flex-col items-center justify-center pb-14 text-center sm:min-h-[320px];
+    @apply mx-auto flex min-h-[132px] max-w-4xl flex-col items-center justify-center pb-7 text-center sm:min-h-[168px] sm:pb-8;
   }
 
   .second-layer-title {
@@ -448,7 +448,7 @@ textarea {
   }
 
   .edu-section-page .second-layer-hero-inner {
-    @apply relative mx-auto min-h-[220px] max-w-3xl pb-12 sm:min-h-[280px];
+    @apply relative mx-auto min-h-[132px] max-w-3xl pb-7 sm:min-h-[168px] sm:pb-8;
   }
 
   .edu-section-page .second-layer-lede {
